@@ -113,6 +113,12 @@ export default {
       return this.filterPokemons.slice(startIndex, endIndex)
     }
   },
+
+  mounted() {
+    document.title = "Pokédex"
+    const favicon = document.querySelector('link[rel="icon"]')
+    favicon.href = "https://i.pinimg.com/originals/43/ed/d5/43edd5aa5f0de7f410f5e38326f4b94c.png"
+  }
 }
 </script>
 
