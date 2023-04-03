@@ -78,9 +78,9 @@ export default {
   methods: {
     buscar: function () {
       this.filterPokemons = this.pokemons
-      this.filterPokemons = this.busca == '' || this.busca == ' '
+      this.filterPokemons = this.busca.trim().toLowerCase() === ''
         ? this.pokemons
-        : this.pokemons.filter(pokemon => pokemon.name.startsWith(this.busca))
+        : this.pokemons.filter(pokemon => pokemon.name.toLowerCase().startsWith(this.busca.toLowerCase()))
       this.currentPage = 1
     },
     prevPage() {
