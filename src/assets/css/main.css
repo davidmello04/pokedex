@@ -1,0 +1,209 @@
+@import './base.css';
+
+/* Tela pequena */
+@media (max-width: 576px) {
+}
+
+/* Tela média */
+@media (max-width: 768px) {
+  #app {
+    max-width: auto;
+    min-width: 99%;
+    margin: 0 auto;
+  }
+
+  #nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #logo {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  #logo-icon {
+    width: 28rem;
+    min-width: 100%;
+  }
+
+  #pikachu {
+    display: none;
+  }
+
+  #div-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  #search {
+    height: 2.9rem;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #btnSearch {
+    height: 2.5rem;
+    width: auto;
+    min-width: 30%;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+  }
+
+  #stripe {
+    background-color: rgb(0, 105, 204);
+    height: 1rem;
+    width: 100%;
+  }
+
+  #title-description {
+    font-size: 0.5em;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border-bottom: 0.20rem solid red;
+  }
+
+  #stripe-title {
+    display: none;
+  }
+
+  #card {
+    border: 15px solid #214468;
+    border-radius: 0.25rem;
+  }
+
+  #div-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  #columns-cards {
+    margin: 1rem;
+    width: 100%;
+    min-width: 70%;
+  }
+
+  #name-card {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  #pokemon-name {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  #img-pokemon {
+    width: 8rem;
+    margin: 0;
+  }
+
+  #btn {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #name {
+    margin: 0;
+}
+
+#card-content {
+  padding: 0.95rem;
+}
+
+#img-footer {
+  width: 17rem;
+}
+
+#footer {
+  padding: 2rem;
+}
+}
+
+/* Tela grande */
+@media (min-width: 769px) and (max-width: 1199px) {
+  #logo-icon {
+    min-width: 60%;
+  }
+
+  #div-search {
+    min-width: 100%;
+  }
+
+  #search {
+    height: 2.9rem;
+    padding: 1rem;
+    margin: 0;
+    margin-right: 0.5rem;
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #btnSearch {
+    margin-right: 35%;
+  }
+
+  /*CARD*/
+
+  #card {
+    width: 50%;
+    min-width: 100%;
+  }
+
+  #columns-cards {
+    flex-basis: 41.33333%;
+    max-width: 41.33333%;
+    min-width: 60%;
+  }
+
+  #pikachu {
+    display: none;
+  }
+}
+  /* Tela extra grande */
+  @media (min-width: 1200px) and (max-width: 1500px) {
+     /*CARD*/
+
+  #card {
+    width: 90%;
+    min-width: 70%;
+  }
+
+  #columns-cards {
+    flex-basis: 41.33333%;
+    max-width: 41.33333%;
+    min-width: 40%;
+  }
+
+  #columns-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 1501px) {
+  
+  }
+  }
