@@ -17,19 +17,19 @@
                         </span>
                     </p>
                     <p class="description-card bold is-6">
-                        Type:&nbsp;
+                        Tipo:&nbsp;
                         <span v-for="(type, index) in pokemon.types" :key="index">
                             {{ type }} <span v-if="index !== pokemon.types.length - 1">/&nbsp;</span>
                         </span>
                     </p>
                     <p class="description-card bold is-6">
-                        Height: {{ pokemon.height }} m
+                        Altura: {{ pokemon.height }} m
                     </p>
                     <p class="description-card bold is-6">
-                        Weight: {{ pokemon.weight }} kg
+                        Peso: {{ pokemon.weight }} kg
                     </p>
                     <p class="description-card bold is-6">
-                        Abilities:&nbsp;
+                        Habilidades:&nbsp;
                         <span v-for="(ability, index) in pokemon.abilities" :key="index">
                             {{ ability }} <span v-if="index !== pokemon.abilities.length - 1">/&nbsp;</span>
                         </span>
@@ -106,6 +106,12 @@ export default {
 </script>
 
 <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Comic+Neue&family=Montserrat&family=Oswald:wght@300&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
 #card {
     border: 20px solid #214468;
     border-radius: 0.25rem;
@@ -170,7 +176,7 @@ export default {
 .description-card {
     display: flex;
     justify-content: flex-start;
-    font-family: cursive;
+    font-family: 'Comic Neue', 'Oswald', sans-serif;
     text-transform: uppercase;
     padding: 0.5rem;
     margin-top: 0.25rem;
