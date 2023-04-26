@@ -118,7 +118,7 @@ export default {
 }
 
 #card:hover {
-    box-shadow: 0 0 20px 10px #c20d0d;
+    box-shadow: 0 0 17px 10px #c20d0d;
 }
 
 #name-card {
