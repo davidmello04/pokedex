@@ -26,7 +26,7 @@ Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando 
 
 ## Acessar Aplicação
 
-https://glittery-narwhal-098581.netlify.app/
+(https://glittery-narwhal-098581.netlify.app/)
 
 
 ## Tecnologias Utilizadas
@@ -35,6 +35,7 @@ https://glittery-narwhal-098581.netlify.app/
 - Bulma: para estilização responsiva e moderna.
 - JavaScript: para lógica e interações.
 - Axios: para fazer requisições HTTP à PokeAPI.
+- PokéAPI (https://pokeapi.co): para coletar dados sobre os Pokémons.
 
 
 ## Contribuição
