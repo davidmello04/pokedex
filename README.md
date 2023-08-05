@@ -1,6 +1,6 @@
 # Pokédex
 
-Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando Vue.js, Bulma, JavaScript e Axios para fornecer aos fãs de Pokémon uma maneira fácil e conveniente de acessar informações detalhadas sobre os 151 Pokémons da primeira geração. A aplicação utiliza a PokeAPI para coletar e exibir dados sobre os Pokémons.
+Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida para fornecer aos fãs de Pokémon uma maneira fácil e conveniente de acessar informações detalhadas sobre os 151 Pokémons da primeira geração. A aplicação utiliza a PokeAPI para coletar e exibir dados sobre os Pokémons.
 
 
 ## Screenshots
