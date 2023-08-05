@@ -11,10 +11,10 @@ Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando 
 
 - Visualização de informações detalhadas sobre cada Pokémon, incluindo:
   * Nome
-  2. Tipo
-  5. Imagem.
-  3. Habilidades
-  4. Estatísticas
+  * Tipo
+  * Imagem.
+  * Habilidades
+  * Estatísticas
 - Pesquisa por nome de Pokémon na barra de pesquisa no topo da página.
 - Botão de alternância para virar o Pokémon de frente ou de costas, localizado na parte inferior do card do Pokémon.
 
