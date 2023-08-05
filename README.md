@@ -4,7 +4,7 @@ Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando 
 
 
 ## Screenshots
-![Screenshot](link_da_screenshot.png)
+
 
 
 ## Recursos
