@@ -26,7 +26,7 @@ Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando 
 
 ## Acessar Aplicação
 
-[Link para a demonstração da aplicação](link_da_demonstracao)
+
 
 
 ## Tecnologias Utilizadas
