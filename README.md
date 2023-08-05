@@ -10,7 +10,7 @@ Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando 
 ## Recursos
 
 - Visualização de informações detalhadas sobre cada Pokémon, incluindo:
-  1. Nome
+  * Nome
   2. Tipo
   5. Imagem.
   3. Habilidades
