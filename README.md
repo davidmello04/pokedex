@@ -5,7 +5,7 @@ Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando 
 
 ## Screenshots
 
-### Cards Pokémons ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/61ddc2b4-15a1-4cea-9686-9c725a6a5527)  
+- Cards Pokémons ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/61ddc2b4-15a1-4cea-9686-9c725a6a5527)  
 ### Pesquisa de Pokémons ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/eb23f8b0-a7e6-4304-8ce6-109cf044095a)  
 ### Pesquisa de Pokémons ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/67a7fd27-6db1-4fa5-929e-6b36eeed4671)  
 ### Footer ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/0ad6a693-0968-4e01-9c63-8fae249218ed)  
