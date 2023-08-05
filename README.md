@@ -26,7 +26,7 @@ Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida utilizando 
 
 ## Acessar Aplicação
 
-
+https://glittery-narwhal-098581.netlify.app/
 
 
 ## Tecnologias Utilizadas
