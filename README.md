@@ -1,52 +1,81 @@
 # Pokédex
 
-Bem-vindo à Pokédex Vue Web App! Esta aplicação foi desenvolvida para fornecer aos fãs de Pokémon uma maneira fácil e conveniente de acessar informações detalhadas sobre os 151 Pokémons da primeira geração. A aplicação utiliza a PokeAPI para coletar e exibir dados sobre os Pokémons.
+Aplicação web responsiva que apresenta os 151 Pokémon da primeira geração com dados consumidos da [PokéAPI](https://pokeapi.co/). O projeto permite pesquisar Pokémon, consultar tipos, habilidades e estatísticas e alternar a visualização do sprite.
 
+[![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+[![Bulma](https://img.shields.io/badge/Bulma-0.9-00D1B2?logo=bulma&logoColor=white)](https://bulma.io/)
 
-## Screenshots
+## Demonstração
 
-### Cards Pokémons ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/61ddc2b4-15a1-4cea-9686-9c725a6a5527)  
-### Pesquisa de Pokémons ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/eb23f8b0-a7e6-4304-8ce6-109cf044095a)  
-### Pesquisa de Pokémons ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/67a7fd27-6db1-4fa5-929e-6b36eeed4671)  
-### Footer ![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/0ad6a693-0968-4e01-9c63-8fae249218ed)  
+**[Acessar a aplicação](https://glittery-narwhal-098581.netlify.app/)**
 
-
-
-## Recursos
-
-- Visualização de informações detalhadas sobre cada Pokémon, incluindo:
-  * Nome
-  * Tipo
-  * Imagem.
-  * Habilidades
-  * Estatísticas
-- Pesquisa por nome de Pokémon na barra de pesquisa no topo da página.
-- Botão de alternância para virar o Pokémon de frente ou de costas, localizado na parte inferior do card do Pokémon.
+> Deploy verificado em 17 de setembro de 2026.
 
 ## Funcionalidades
 
-- Use a barra de pesquisa para encontrar um Pokémon específico por nome.
-- Explore as informações detalhadas exibidas para cada Pokémon.
-- Clique no botão de alternância para ver o Pokémon de frente ou de costas.
+- listagem dos 151 Pokémon da primeira geração;
+- pesquisa por nome;
+- exibição de tipo, habilidades e estatísticas;
+- alternância entre sprites frontal e traseiro;
+- interface responsiva para diferentes tamanhos de tela;
+- consumo de dados externos com Axios.
 
-## Acessar Aplicação
+## Tecnologias
 
-https://glittery-narwhal-098581.netlify.app/
+- Vue.js 3
+- JavaScript
+- Vite
+- Axios
+- Bulma
+- PokéAPI
 
+## Capturas de tela
 
-## Tecnologias Utilizadas
+### Listagem de Pokémon
 
-- Vue.js: para a estrutura e interatividade da aplicação.
-- Bulma: para estilização responsiva e moderna.
-- JavaScript: para lógica e interações.
-- Axios: para fazer requisições HTTP à PokeAPI.
-- PokéAPI (https://pokeapi.co): para coletar dados sobre os Pokémons.
+![Listagem de Pokémon](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/61ddc2b4-15a1-4cea-9686-9c725a6a5527)
 
+### Pesquisa
 
-## Contribuição
+![Pesquisa de Pokémon](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/eb23f8b0-a7e6-4304-8ce6-109cf044095a)
 
-Contribuições são bem-vindas! Se você quiser melhorar ou adicionar recursos à aplicação, siga estas etapas:
+### Detalhes e estatísticas
 
+![Detalhes e estatísticas de um Pokémon](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/67a7fd27-6db1-4fa5-929e-6b36eeed4671)
+
+## Como executar localmente
+
+### Pré-requisitos
+
+- Node.js 18 ou superior
+- npm
+
+```bash
+git clone https://github.com/davidmello04/pokedex.git
+cd pokedex
+npm install
+npm run dev
+```
+
+A aplicação ficará disponível no endereço exibido pelo Vite, normalmente `http://localhost:5173`.
+
+## Scripts
+
+```bash
+npm run dev      # inicia o ambiente de desenvolvimento
+npm run build    # gera a versão de produção
+npm run preview  # executa a versão de produção localmente
+npm run lint     # verifica e corrige problemas de lint
+npm run format   # formata os arquivos da pasta src
+```
+
+## Fonte dos dados
+
+Os dados e sprites dos Pokémon são fornecidos pela [PokéAPI](https://pokeapi.co/).
 
 ## Autor
-David Bezerra de Melo [davidmello04](https://github.com/davidmello04) - Criador do pokedéx.
+
+Desenvolvido por [David Melo](https://github.com/davidmello04).
+
+[LinkedIn](https://www.linkedin.com/in/david-melo-/)
